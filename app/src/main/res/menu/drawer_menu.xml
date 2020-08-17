@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/home"
+                android:title="@string/home" />
+            <item
+                android:id="@+id/menuButton"
+                android:title="@string/menu" />
+            <item
+                android:id="@+id/cart"
+                android:title="@string/cart" />
+            <item
+                android:id="@+id/pastOrders"
+                android:title="@string/pastOrders" />
+            <item
+                android:id="@+id/login"
+                android:title="@string/login" />
+            <item
+                android:id="@+id/contactOrFindUs"
+                android:title="@string/contactAndFindUs" />
+            <item
+                android:id="@+id/ourStory"
+                android:title="@string/ourStory" />
+            <item
+                android:id="@+id/facebookIntegration"
+                android:title="@string/facebookIntegration"/>
+            <item
+                android:id="@+id/settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/feedback"
+                android:title="@string/surveyMonkey" />
+    </group>
+
+        <item android:title="@string/connectWithUs">
+
+                <menu>
+
+                        <group android:checkableBehavior="single">
+
+                                <item
+                                    android:id="@+id/facebook"
+                                    android:icon="@drawable/facebook_logo"
+                                    android:title="@string/facebook" />
+
+                                <item
+                                    android:id="@+id/instagram"
+                                    android:icon="@drawable/instagram_logo"
+                                    android:title="@string/instagram" />
+
+                                <item
+                                    android:id="@+id/twitter"
+                                    android:icon="@drawable/twitter_logo"
+                                    android:title="@string/twitter" />
+
+                        </group>
+                </menu>
+        </item>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="5dp">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".PastOrders"
+        android:id="@+id/relativeLayout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/nestedRecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:longClickable="false" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="163dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/nestedRecyclerview"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/total"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/itemTotal"
+            android:layout_width="107dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/nestedRecyclerview"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/totalPrice"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

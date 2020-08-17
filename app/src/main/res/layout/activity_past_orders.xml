@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PastOrders"
+    android:id="@+id/relativeLayoutMenu">
+
+    <TextView
+        android:id="@+id/pastOrderTitle"
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:text="@string/pastOrders"
+        android:textAlignment="center"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pastOrdersRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pastOrderTitle"
+        android:layout_alignParentStart="true"
+        android:longClickable="false" />
+
+</RelativeLayout>

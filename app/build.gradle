@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.localcoffee"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.android.support:design:29.0.2'
+    implementation "androidx.drawerlayout:drawerlayout:1.0.0"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // Google Maps API
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    // Firebase SDK import
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.google.firebase:firebase-auth:19.3.0'
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.0'
+
+    // Google Login API
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    //Facebook API
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.facebook.android:facebook-login:[5,6)'
+    implementation 'com.facebook.android:facebook-share:[5,6)'
+
+    // SurveyMonkey SDK
+    implementation 'com.surveymonkey:surveymonkey-android-sdk:2.0.0'
+    implementation project(':surveymonkey_android_sdk')
+
+}
+
+// Google services added for the firebase sdk
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'

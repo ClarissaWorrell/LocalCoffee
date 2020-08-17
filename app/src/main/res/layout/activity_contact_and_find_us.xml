@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:id="@id/relativeLayout">
+
+        <TextView
+            android:id="@+id/addressLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/GoogleMapsHyperlink"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="198dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/hours"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/emailIcon"
+            android:layout_width="85dp"
+            android:layout_height="55dp"
+            android:layout_alignStart="@id/addressLink"
+            android:layout_marginTop="150dp"
+            android:background="@null"
+            android:contentDescription="@string/emailIcon"
+            app:srcCompat="@drawable/email_icon" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/Email"
+            android:textAlignment="center"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/phoneIcon"
+            android:layout_width="85dp"
+            android:layout_height="55dp"
+            android:layout_alignStart="@id/addressLink"
+            android:layout_marginTop="250dp"
+            android:contentDescription="@string/phoneIcon"
+            app:srcCompat="@drawable/phone_icon" />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/PhoneNumber"
+            android:textAlignment="center"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

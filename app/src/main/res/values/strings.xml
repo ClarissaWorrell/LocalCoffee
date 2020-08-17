@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">LocalCoffee</string>
+    <string name="title_activity_find_us">Map</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="backButton">Back Button</string>
+
+
+    <!-- Strings for Main Activity screen -->
+    <string name="startOrder">START AN ORDER</string>
+    <string name="welcome">Welcome to Local Coffee Shop</string>
+    <string name="navigationDrawerButton">Navigation drawer open button</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logo">Photo of the Local Coffee Shop\'s logo</string>
+
+    <!-- Strings for Navigation Drawer -->
+    <string name="navigation">Navigation</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="pastOrders">Past Orders</string>
+    <string name="login">Login or Sign Up</string>
+    <string name="contactAndFindUs">Contact and Find Us</string>
+    <string name="ourStory">Our Story</string>
+    <string name="facebookIntegration">Post About Us On Facebook</string>
+    <string name="settings">Settings</string>
+    <string name="surveyMonkey">Give Us Feedback</string>
+    <string name="connectWithUs">Connect with Us</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="twitter">TWITTER</string>
+
+    <!-- Strings for Login screen -->
+    <string name="loginTitle">LOGIN \nor \nSIGN UP</string>
+    <string name="orText">or</string>
+    <string name="guest">Continue as a guest</string>
+    <string name="loginBackground">Login Background photo</string>
+
+
+    <!-- Strings for Menu screen -->
+    <string name="menuTitle">MENU</string>
+    <string name="addToCart">ADD</string>
+    <string name="cartButton">Button to open the cart</string>
+    <string name="itemPicture">Photo of menu item</string>
+    <string name="increaseButton">Button to increase the quantity of the item</string>
+    <string name="decreaseButton">Button to decrease the quantity of the item</string>
+    <string name="menuPhotoCredit">Kgbo. (Photographer). (2020, May 22). Latte art at Roma Street Parkland, Brisbane [digital image]. Retrieved from \nhttps://commons.wikimedia.org/wiki/File:Latte_art_at_Roma_Street_Parkland,_Brisbane,_May_2020.jpg</string>
+
+    <!-- Strings for Cart screen -->
+    <string name="reviewOrder">Review Order</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="removeItem">REMOVE ITEM</string>
+    <string name="total">TOTAL:</string>
+    <string name="totalPrice">$0.00</string>
+
+    <!-- Strings for Thank You screen -->
+    <string name="address">7015 West US, \nE Hwy 290, \nAustin, TX 78736</string>
+    <string name="thankYouMessage">Thank you!</string>
+    <string name="orderReady">Your order will be ready soon at:</string>
+
+    <!-- Strings for Past Orders screen -->
+    <string name="emptyItem">Empty Item</string>
+    <string name="emptyNumber">0</string>
+
+
+    <!-- Strings for About Us screen -->
+    <string name="AboutUs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n
+        \nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n
+        \nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="OurStoryTitle">OUR STORY</string>
+    <string name="CompanyName">Local Coffee Shop</string>
+    <string name="AboutUsPhotoCredit">Ezcurdia, L. (Photographer). (2015, February 22). Distracted Barista [digital image]. Retrieved from  \nhttps://commons.wikimedia.org/wiki/File:Distracted_Barista_(100034379).jpeg</string>
+
+
+    <!-- Strings for Contact and Find Us screen -->
+    <string name="GoogleMapsHyperlink"><a href='https://goo.gl/maps/jTeNg4zYDyUaU8nKA'>7015 West US, \nE Hwy 290, \nAustin, TX 78736</a></string>
+    <string name="PhoneNumber">555-555-5555</string>
+    <string name="Email">sample@gmail.com</string>
+    <string name="emailIcon">Email Icon</string>
+    <string name="phoneIcon">Phone Icon</string>
+    <string name="hours">HOURS \nSunday - Saturday \n 6:00 AM - 7:00 PM </string>
+
+    <!-- Strings for Settings screen -->
+    <string name="logout">Log Out</string>
+    <string name="deleteAccount">Delete Account</string>
+
+
+    <!-- Strings for Facebook integration screen -->
+    <string name="facebook_app_id">217591052716192</string>
+    <string name="fb_login_protocol_scheme">fb217591052716192</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="app_id">355198514515820</string>
+    <string name="exception">Exception: %1$s</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "269281934995",
+    "firebase_url": "https://localcoffeeshop-dbdaa.firebaseio.com",
+    "project_id": "localcoffeeshop-dbdaa",
+    "storage_bucket": "localcoffeeshop-dbdaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269281934995:android:265f68ee65d357258bd766",
+        "android_client_info": {
+          "package_name": "com.example.localcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269281934995-1q9j9id97t37vhqctkmtoek11bs3g1hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.localcoffee",
+            "certificate_hash": "a8b01b928f6f1c532684974eef2ce690b8be7bd0"
+          }
+        },
+        {
+          "client_id": "269281934995-u8vdukucunna152esov8c7r4nr5mejp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIYnXegQO9v4fYK8S0yIfpgyoJRBXwENE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269281934995-u8vdukucunna152esov8c7r4nr5mejp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
